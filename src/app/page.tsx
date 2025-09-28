@@ -137,8 +137,14 @@ const education = [
 ];
 
 const certifications = [
-  "Microsoft Azure AZ-900 Certified (2021)",
-  "Microsoft Azure AZ-104 Certified (2022)"
+  {
+    name: "Microsoft Azure AZ-900 Certified (2021)",
+    url: "https://www.credly.com/badges/96ca733e-3481-4025-9804-489babda0c57/linked_in_profile" // Replace with your actual badge URL
+  },
+  {
+    name: "Microsoft Azure AZ-104 Certified (2022)", 
+    url: "https://www.credly.com/badges/6a09ecd7-c50d-4b55-b526-bfa3f6709bab/linked_in_profile" // Replace with your actual badge URL
+  }
 ];
 
 export default function Portfolio() {
@@ -475,7 +481,10 @@ export default function Portfolio() {
                     {certifications.map((cert, index) => (
                       <div key={index} className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-primary rounded-full" />
-                        <span>{cert}</span>
+                        <span>{cert.name}</span>
+                        <a href={cert.url} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="w-4 h-4" />
+                        </a>
                       </div>
                     ))}
                   </div>
