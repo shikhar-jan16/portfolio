@@ -14,16 +14,16 @@ const projects = [
     tech: ["Next.js", "Flask", "Qdrant", "Supabase", "OpenAI", "AWS S3", "LangChain", "TypeScript"],
     demo: "https://uiuc.chat/",
     repo: "https://github.com/Center-for-AI-Innovation/uiuc-chat-frontend",
-    highlight: "10k+ users, 40% improvement in query resolution"
+    highlight: "10k+ users, multimodal AI responses"
   },
   {
-    title: "Batchbot — Multimodal LLM Chatbot",
+    title: "Batchbot — LLM Chatbot",
     blurb:
       "An AI-powered chatbot built with Next.js and OpenAI. The model analyzes images and provides contextual, intelligent responses in real-time.",
     tech: ["Next.js", "TypeScript", "OpenAI API", "LLM", "Multimodal AI"],
     demo: "https://batchbot-q2337jzxu-shikhar-mattoos-projects.vercel.app/",
     repo: "https://github.com/shikhar-jan16/batchbot",
-    highlight: "Real-time multimodal AI responses"
+    highlight: "Real-time AI responses"
   },
   {
     title: "Yelp Dataset Analysis",
@@ -39,7 +39,7 @@ const projects = [
       "Created an efficient real-time face mask detection tool using MobileNet and advanced computer vision methods. Research paper published on the implementation.",
     tech: ["Python", "MobileNet", "Computer Vision", "TensorFlow"],
     highlight: "Real-time detection system",
-    paper: "https://www.researchgate.net/publication/379421152_Face_Mask_Detection_Using_MobileNet",
+    paper: "http://www.ijcaonline.org/archives/volume183/number13/31989-2021921445 ",
   },
 ];
 
