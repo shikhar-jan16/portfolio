@@ -45,6 +45,18 @@ const projects = [
 
 const workExperience = [
   {
+    company: "University of Illinois Urbana-Champaign",
+    role: "Innovation Researcher",
+    period: "September 2025 - Present",
+    location: "Illinois, United States",
+    achievements: [
+      "Working on research projects focused on innovation, agentic AI, and AI applications",
+      "Contributing to experiment design and data analysis for AI-driven solutions",
+      "Improving learning, teaching, and operational effectiveness through AI research",
+      "Developing innovative approaches to educational technology and institutional operations"
+    ]
+  },
+  {
     company: "National Center for Supercomputing Applications - UIUC",
     role: "AI Developer",
     period: "June 2025 - August 2025",
