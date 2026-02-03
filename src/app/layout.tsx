@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shikhar Mattoo - AI Developer & Software Engineer",
-  description: "AI Developer and Software Engineer with 3+ years experience. MS in Technology Management at UIUC. Specializing in AI/ML, full-stack development, and cloud solutions.",
+  title: "Shikhar Mattoo - Full Stack AI Engineer",
+  description: "Full Stack AI Engineer with 3+ years experience building scalable web applications and AI systems. MS in Engineering from UIUC.",
 };
 
 export default function RootLayout({
