@@ -17,6 +17,14 @@ const projects = [
     highlight: "10k+ users, multimodal AI responses"
   },
   {
+    title: "Market Game — Legacy System Modernization",
+    blurb:
+      "Re-engineered legacy Deloitte-partnered Market Game into a modern, scalable web application. Implemented secure authentication, authorization, and resolved system crashes during peak load times through architectural improvements.",
+    tech: ["Next.js", "TypeScript", "Node.js", "Flask", "MySQL", "Authentication", "RBAC"],
+    demo: "https://market-game-new-frontend-j9r0.onrender.com/",
+    highlight: "50% reduced downtime, multi-tenant architecture"
+  },
+  {
     title: "Batchbot — LLM Chatbot",
     blurb:
       "An AI-powered chatbot built with Next.js and OpenAI. The model analyzes images and provides contextual, intelligent responses in real-time.",
@@ -45,91 +53,91 @@ const projects = [
 
 const workExperience = [
   {
-    company: "University of Illinois Urbana-Champaign",
-    role: "Innovation Researcher",
-    period: "September 2025 - Present",
-    location: "Illinois, United States",
+    company: "University of Illinois - Innovation and Transformation",
+    role: "Full Stack AI Engineer",
+    period: "Sep 2025 - Present",
+    location: "United States",
     achievements: [
-      "Working on research projects focused on innovation, agentic AI, and AI applications",
-      "Contributing to experiment design and data analysis for AI-driven solutions",
-      "Improving learning, teaching, and operational effectiveness through AI research",
-      "Developing innovative approaches to educational technology and institutional operations"
+      "Re-engineered legacy Deloitte-partnered Market Game into scalable, multi-tenant web application using Next.js, Node.js/Flask, and MySQL",
+      "Reduced application downtime by 50% during peak academic usage through component refactoring and API stabilization",
+      "Implemented RBAC, authentication, and session management, reducing user-access issues by 60% across multiple cohorts",
+      "Architected distributed systems with Node.js and Python (Flask) to support concurrent users and peak academic traffic"
     ]
   },
   {
-    company: "National Center for Supercomputing Applications - UIUC",
-    role: "AI Developer",
-    period: "June 2025 - August 2025",
-    location: "Illinois, United States",
+    company: "University of Illinois - Innovation and Transformation",
+    role: "Full Stack AI Developer",
+    period: "Jun 2025 - Aug 2025",
+    location: "United States",
     achievements: [
-      "Founding member of Illinois.Chat initiative serving 10,000+ students and faculty",
-      "Improved query resolution coverage by 40% with EXA API integration",
-      "Reduced manual scheduling time by 80% with n8n agentic workflows",
-      "Built multimodal chatbot with OpenAI, LLaMA, LangChain, and HuggingFace"
+      "Founding engineer for Illinois.Chat AI assistant serving 10,000+ students, built as full-stack web platform",
+      "Built RAG system using Qdrant and live web retrieval, improving answer relevance by 40%",
+      "Implemented React/TypeScript frontend with Flask REST backend, reducing request failures to under 1%",
+      "Optimized performance through caching and batching, reducing API costs by 66% with sub-second latency"
     ]
   },
   {
     company: "Infosys Ltd",
-    role: "Associate .NET Developer",
-    period: "May 2023 - July 2024",
+    role: "Senior Full Stack Developer",
+    period: "May 2023 - Jul 2024",
     location: "India",
     achievements: [
-      "Led team of 5 developers in Agile/Scrum environment",
-      "Enhanced data processing speeds by 30% through robust architecture",
-      "Reduced query latency by 30% with SQL Server optimizations",
-      "Managed Azure pipelines for CI/CD processes"
+      "Led development of enterprise-scale full-stack applications using React, Node.js, and SQL Server",
+      "Designed backend services for authentication, authorization, and transactional workflows",
+      "Reduced query latency by 30% through SQL Server optimization and schema design",
+      "Collaborated with cross-functional Agile teams for reliable feature delivery"
     ]
   },
   {
     company: "Infosys Ltd",
-    role: ".NET Developer",
+    role: "Full Stack Developer",
     period: "Nov 2021 - May 2023",
     location: "India",
     achievements: [
-      "Reduced deployment time by 80% with Jenkins CI/CD automation",
-      "Improved data accuracy by 40% with middleware API integration",
-      "Modernized legacy VB6 system to ASP.NET Core",
-      "Built responsive Windows desktop application with .NET Core"
+      "Modernized legacy VB6 applications into React + Node.js web architecture",
+      "Built RESTful APIs with token-based authentication and secure data synchronization",
+      "Reduced deployment time by 80% with Azure CI/CD automation",
+      "Contributed to system design for distributed web applications"
     ]
   }
 ];
 
 const skills = [
   { 
-    category: "Languages", 
-    icon: Code, 
-    items: ["C#", "Python", "JavaScript/TypeScript", "Java", "C++", "MATLAB"] 
-  },
-  { 
     category: "Frontend", 
     icon: Globe, 
-    items: ["Next.js", "React", "Blazor", "WPF", "Windows SDK"] 
+    items: ["React", "Next.js", "TypeScript", "JavaScript", "HTML/CSS", "Component Libraries"] 
   },
   { 
     category: "Backend & APIs", 
     icon: Database, 
-    items: [".NET Core", "Flask", "Node.js", "Entity Framework", "REST APIs"] 
-  },
-  { 
-    category: "AI/ML & Data", 
-    icon: Brain, 
-    items: ["OpenAI API", "LangChain", "HuggingFace", "Qdrant", "Computer Vision"] 
+    items: ["Node.js", "Flask", "Express.js", "REST APIs", "Authentication", "RBAC"] 
   },
   { 
     category: "Databases", 
     icon: Database, 
-    items: ["SQL Server", "PostgreSQL", "MongoDB", "MySQL", "Redis"] 
+    items: ["SQL Server", "PostgreSQL", "MySQL", "MongoDB", "Redis", "Query Optimization"] 
   },
   { 
-    category: "DevOps & Cloud", 
+    category: "AI/ML & Data", 
+    icon: Brain, 
+    items: ["OpenAI API", "LangChain", "HuggingFace", "Qdrant", "RAG Systems", "Computer Vision"] 
+  },
+  { 
+    category: "Cloud & DevOps", 
     icon: Globe, 
-    items: ["Azure Pipelines", "Jenkins", "Docker", "AWS S3", "Vercel"] 
+    items: ["AWS S3", "Azure", "Docker", "CI/CD", "Jenkins", "GitHub Actions"] 
+  },
+  { 
+    category: "Engineering", 
+    icon: Code, 
+    items: ["System Design", "Scalable Systems", "Performance Optimization", "Agile/Scrum", "Testing"] 
   }
 ];
 
 const education = [
   {
-    degree: "Master of Science in Technology Management",
+    degree: "Master of Science in Engineering",
     school: "University of Illinois Urbana-Champaign",
     period: "Aug 2024 - Aug 2025",
     gpa: "3.8/4.0"
@@ -209,11 +217,12 @@ export default function Portfolio() {
             transition={{ duration: 0.5, delay: 0.4 }}
           >
             <h2 className="text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-              Software Developer
+              Full Stack AI Engineer
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Experienced software developer specializing in AI/ML applications, full-stack development, .NET development, and cloud solutions. 
-              with 3+ years of professional experience.
+              Full Stack AI Engineer specializing in scalable web applications, AI-powered systems, and distributed architectures. 
+              MS in Engineering from UIUC with 3+ years of professional experience building 
+              enterprise-scale applications serving thousands of users.
             </p>
             <div className="flex justify-center gap-4 flex-wrap">
               <Button size="lg" asChild>
@@ -254,19 +263,20 @@ export default function Portfolio() {
           <div className="max-w-4xl mx-auto">
             <Card>
               <CardContent className="p-8">
-              <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-                  I&apos;m a passionate AI Developer and Software Engineer with over 3 years of professional experience 
-                  building scalable applications and intelligent systems. I specialize in creating AI-powered solutions that serve thousands of users.
+                <p className="text-lg leading-relaxed text-muted-foreground mb-6">
+                  I&apos;m a passionate Full Stack AI Engineer with over 3 years of professional experience 
+                  building scalable web applications and intelligent systems. With my Master&apos;s in Engineering 
+                  from UIUC, I specialize in creating full-stack AI-powered solutions that serve thousands of users.
                 </p>
                 <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-                  At NCSA-UIUC, I was a founding member of the Illinois.Chat initiative, building a multimodal AI 
-                  assistant that now serves 10,000+ students and faculty. Previously at Infosys, I led development 
-                  teams building enterprise .NET applications, managing Azure pipelines, and architecting scalable 
-                  solutions for Market and Counterparty Risk systems.
+                  Currently working at UIUC&apos;s Innovation and Transformation department, I&apos;ve re-engineered legacy systems 
+                  into modern web applications and was a founding engineer for Illinois.Chat, building a full-stack AI assistant 
+                  platform. My experience spans from React/Next.js frontends to Node.js/Flask backends, with expertise in 
+                  distributed systems and cloud architectures.
                 </p>
                 <p className="text-lg leading-relaxed text-muted-foreground">
-                  My journey spans from .NET enterprise development to cutting-edge AI/ML applications, leveraging 
-                  technologies like LLMs, vector databases, and cloud platforms to create meaningful impact through technology.
+                  I excel at building end-to-end solutions that combine modern web technologies with AI/ML 
+                  capabilities to create meaningful impact through technology.
                 </p>
               </CardContent>
             </Card>
